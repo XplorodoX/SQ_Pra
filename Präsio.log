@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.8)  27 OCT 2025 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.8)  27 OCT 2025 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1343,7 +1343,7 @@ Package rerunfilecheck Info: File `Präsio.out' has not changed.
 Here is how much of TeX's memory you used:
  25599 strings out of 473190
  477398 string characters out of 5715801
- 1097373 words of memory out of 5000000
+ 1098373 words of memory out of 5000000
  48274 multiletter control sequences out of 15000+600000
  611444 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1357,7 +1357,7 @@ public/lm/lmsso10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm
 /lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/loc
 al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Präsio.pdf (17 pages, 249675 bytes).
+Output written on Präsio.pdf (17 pages, 249685 bytes).
 PDF statistics:
  210 PDF objects out of 1000 (max. 8388607)
  157 compressed objects within 2 object streams
