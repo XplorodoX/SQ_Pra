@@ -1,3 +1,5 @@
+% Ensure xcolor receives the `table` option before any package/class loads it
+\PassOptionsToPackage{table}{xcolor}
 \documentclass[aspectratio=169,10pt]{beamer}
 
 % ===============================
@@ -10,7 +12,8 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{hyperref}
-\usepackage[table]{xcolor}
+% xcolor options are passed above to avoid option clash with class/packages
+\usepackage{xcolor}
 \usepackage{csquotes}
 \usepackage{listingsutf8}
 \usepackage{colortbl}
@@ -190,7 +193,7 @@ private:
 
 \begin{frame}{Diagramm -- Strategized Locking}
   \begin{center}
-    \IfFileExists{diagram-placeholder.pdf}{\includegraphics[width=0.92\linewidth,keepaspectratio]{diagram-placeholder.pdf}}{\fbox{Diagramm fehlt (diagram-placeholder.pdf)}}
+    \IfFileExists{UML-Klasse.pdf}{\includegraphics[width=0.6\linewidth,keepaspectratio]{UML-Klasse.pdf}}{\fbox{Diagramm fehlt (UML-Klasse.pdf)}}
   \end{center}
 \end{frame}
 
