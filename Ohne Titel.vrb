@@ -1,0 +1,14 @@
+\frametitle{Codebeispiel (C++)}
+\begin{lstlisting}[language=C++]
+template <class LOCK>
+class File_Cache {
+public:
+	const char* find(const char* path) {
+		Guard<LOCK> guard(lock_);
+		// Zugriff auf Cache...
+		return nullptr;
+	}
+private:
+	LOCK lock_;
+};
+\end{lstlisting}

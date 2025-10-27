@@ -1,0 +1,5 @@
+\babel@toc {ngerman}{}\relax 
+\beamer@sectionintoc {1}{Einführung \& Motivation}{3}{0}{1}
+\beamer@sectionintoc {2}{Patternbeschreibung}{6}{0}{2}
+\beamer@sectionintoc {3}{Codebeispiel und Diagramm}{10}{0}{3}
+\beamer@sectionintoc {4}{Verwandte Patterns}{14}{0}{4}

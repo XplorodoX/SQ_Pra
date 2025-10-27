@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.8)  27 OCT 2025 14:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.8)  27 OCT 2025 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"/Users/merluee/Desktop/SQ_Pra/Ohne Titel.tex"
-(/Users/merluee/Desktop/SQ_Pra/Ohne Titel.tex
+**"Ohne Titel.tex"
+(./Ohne Titel.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
@@ -707,17 +707,876 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \documentclass[aspectratio=169,10pt]{
+l.4 \documentclass[aspectratio=169,10pt]{
                                          beamer}
 The document may only declare one class.
 
+(/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamerthemeMadrid.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.st
+y)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.
+sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamercolorthemedolphin.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks46
+\inpenc@posthook=\toks47
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+\babel@savecnt=\count345
+\U@D=\dimen295
+\l@unhyphenated=\language90
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+LaTeX Info: Redefining \textlatin on input line 3835.
+\bbl@dirlevel=\count346
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2024/12/10 v2.15 German support for babel (post-1996 orthogra
+phy)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2024/12/10 v2.15 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 122.
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.t
+ex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 11.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen296
+\lightrulewidth=\dimen297
+\cmidrulewidth=\dimen298
+\belowrulesep=\dimen299
+\belowbottomsep=\dimen300
+\aboverulesep=\dimen301
+\abovetopsep=\dimen302
+\cmidrulesep=\dimen303
+\cmidrulekern=\dimen304
+\defaultaddspace=\dimen305
+\@cmidla=\count347
+\@cmidlb=\count348
+\@aboverulesep=\dimen306
+\@belowrulesep=\dimen307
+\@thisruleclass=\count349
+\@lastruleclass=\count350
+\@thisrulewidth=\dimen308
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count351
+\lst@gtempboxa=\box77
+\lst@token=\toks48
+\lst@length=\count352
+\lst@currlwidth=\dimen309
+\lst@column=\count353
+\lst@pos=\count354
+\lst@lostspace=\dimen310
+\lst@width=\dimen311
+\lst@newlines=\count355
+\lst@lineno=\count356
+\lst@maxwidth=\dimen312
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count357
+\lst@skipnumbers=\count358
+\lst@framebox=\box78
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 	i
+       tle[Strategized Locking Pattern]{Strategized Locking Pattern}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7
+6.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count359
+\l__pdf_internal_box=\box79
+)
+(./Ohne Titel.aux)
+\openout1 = `"Ohne Titel.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.00002pt, 435.24405pt, 10.00002pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=435.24405pt
+* \textheight=227.62207pt
+* \oddsidemargin=-62.26997pt
+* \evensidemargin=-62.26997pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=14.22636pt
+* \marginparwidth=3.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count360
+\scratchdimen=\dimen313
+\scratchbox=\box80
+\nofMPsegments=\count361
+\nofMParguments=\count362
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen314
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
+\everyMPtoPDFconversion=\toks50
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 76.
+
+(./Ohne Titel.out) (./Ohne Titel.out)
+\@outlinefile=\write5
+\openout5 = `"Ohne Titel.out"'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 76.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 76.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 76.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 76.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 76.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 76.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 76.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-bibliograph
+y-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-environment
+-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-months-dict
+ionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-numbers-dic
+tionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-theorem-dic
+tionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+\c@lstlisting=\count366
+ (./Ohne Titel.nav)
+<Hochschule-aalen.svg.png, id=29, 1224.575pt x 188.705pt>
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 76.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 81.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+
+Overfull \vbox (13.49939pt too high) has occurred while \output is active []
+
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 81.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 81.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
+
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <
+./Hochschule-aalen.svg.png>]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 86.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 86.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 86.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[2
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 89.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+ (./Ohne Titel.toc)
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 89.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 89.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[3
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 96.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 96.
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 96.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 96.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[4
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 104.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+104.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+04.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+104.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+104.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 104.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 104.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 104.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 104
+.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 104
+.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 104.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 104.
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 104.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 104.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[5
+
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 106.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+
+(./Ohne Titel.toc)
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 106.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 106.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[6
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 118.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 118.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 118.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[7
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 126.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 126.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 126.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[8
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 138.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 138.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 138.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[9
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 140.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+ (./Ohne Titel.toc)
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 140.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 140.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[10
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 141.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+\openout4 = `"Ohne Titel.vrb"'.
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 155.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+ (./Ohne Titel.vrb
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 155.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 155.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[11
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 166.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 166.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 166.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[12
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 178.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+
+Overfull \hbox (55.2851pt too wide) in paragraph at lines 178--178
+[][]  
+ []
+
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 178.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 178.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[13
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 180.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+ (./Ohne Titel.toc)
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 180.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 180.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[14
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 187.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 187.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 187.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+[15
+
+]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 204.
+(pdftex.def)             Requested size: 129.2475pt x 19.91684pt.
+
+! Misplaced alignment tab character &.
+<argument>  public: Guard(LOCK &
+                                l): lock(l) { lock.acquire(); } ~Guard() { l...
+l.204 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ... { lock.release(); } private: LOCK &
+                                                  lock; 
+l.204 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument>  public: Guard(LOCK &
+                                l): lock(l) { lock.acquire(); } ~Guard() { l...
+l.204 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ... { lock.release(); } private: LOCK &
+                                                  lock; 
+l.204 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Package Listings Warning: Text dropped after begin of listing on input line 204
+.
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 		\item Hohe Flexibilität 
+                                 und Wiederverwendbarkeit
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A4.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 		\item Hohe Flexibilität 
+                                 und Wiederverwendbarkeit
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 		\item Template-Komplexität 
+                                    / Sichtbarkeit der Strategien
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A4.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 		\item Template-Komplexität 
+                                    / Sichtbarkeit der Strategien
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 		\item Potenziell höhere 
+                                 Kompilierzeit
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B6.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 		\item Potenziell höhere 
+                                 Kompilierzeit
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\lst@FillFixed@).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 		\item Moderne Äquivalente:
+                                    \texttt{std::lock\_guard}, Java \texttt{...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "84.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 		\item Moderne Äquivalente:
+                                    \texttt{std::lock\_guard}, Java \texttt{...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 		\item Klare Trennung von Funktionalität 
+                                                 und Synchronisation
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A4.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.234 		\item Klare Trennung von Funktionalität 
+                                                 und Synchronisation
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+! Emergency stop.
+<*> "Ohne Titel.tex"
+                    
+*** (job aborted, no legal \end found)
+
  
 Here is how much of TeX's memory you used:
- 20026 strings out of 473190
- 381442 string characters out of 5715801
- 754484 words of memory out of 5000000
- 42920 multiletter control sequences out of 15000+600000
- 559142 words of font info for 37 fonts, out of 8000000 for 9000
+ 25356 strings out of 473190
+ 476335 string characters out of 5715801
+ 1175657 words of memory out of 5000000
+ 48036 multiletter control sequences out of 15000+600000
+ 605513 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,0n,123p,417b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,18n,123p,431b,1425s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!

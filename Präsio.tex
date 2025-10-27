@@ -1,259 +1,291 @@
 \documentclass[aspectratio=169,10pt]{beamer}
 
-% ==================================================
-% Hochschule Aalen Präsentationsvorlage (1:1 Design)
-% ==================================================
-\usetheme{default}
-\usecolortheme{default}
-
-% --------------------------------------------------
-% Farben (Corporate Design)
-% --------------------------------------------------
-\definecolor{hsaaBlue}{RGB}{0,70,135}
-\definecolor{hsaaGray}{RGB}{80,80,80}
-
-% --------------------------------------------------
-% Pakete
-% --------------------------------------------------
-\usepackage[utf8]{inputenc}
+% ===============================
+% Hochschule Aalen Look & Feel
+% ===============================
 \usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 \usepackage{lmodern}
 \usepackage{graphicx}
-\usepackage{ragged2e}
 \usepackage{booktabs}
-\usepackage{xcolor}
 \usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{csquotes}
+\usepackage{listingsutf8}
 
-% --------------------------------------------------
-% Grundlayout
-% --------------------------------------------------
-\setbeamercolor{normal text}{fg=black,bg=white}
-\setbeamercolor{frametitle}{fg=hsaaBlue,bg=white}
-\setbeamercolor{structure}{fg=hsaaBlue}
-\setbeamertemplate{navigation symbols}{}
+\definecolor{hsaaBlue}{RGB}{0,70,135}
+\definecolor{hsaaGray}{RGB}{100,100,100}
 
-% ==================================================
-% Kopfzeile: Logo oben rechts + dünner blauer Strich darunter
-% ==================================================
-\setbeamertemplate{headline}{%
-  % Logo oben rechts in Box mit ausreichender Höhe
-  \begin{beamercolorbox}[wd=\paperwidth,ht=1.2cm,dp=0.0cm]{}%
-    \vspace{0.1cm}
-    \hfill
-  % Bildhöhe etwas kleiner setzen (kleineres Logo)
-  \includegraphics[height=0.8cm]{Hochschule-aalen.svg.png}\hspace{0.5cm}
-  \end{beamercolorbox}%
-  % Dünner blauer Strich direkt unter dem Logo, über gesamte Breite
-  \begin{beamercolorbox}[wd=\paperwidth,ht=1pt,dp=0pt]{frametitle}%
-    \color{hsaaBlue}\rule{\paperwidth}{1pt}%
-  \end{beamercolorbox}%
-}
-
-% ==================================================
-% Fußzeile: dünner blauer Balken über gesamte Breite (sichtbar auf allen Folien)
-% enthält Datum / Institut, Autor / Seitenzahl in kleiner Schrift
-% ==================================================
-\setbeamercolor{footline}{bg=hsaaBlue,fg=white}
-\setbeamertemplate{footline}{%
-  % Breiterer blauer Balken mit weißer Beschriftung (zentriert vertikal)
-  % Verwende ein HBox to \paperwidth und manuelle seitliche Abstände,
-  % damit die Seitenzahl zuverlässig am rechten Rand innerhalb des Balkens sitzt.
-  \begin{beamercolorbox}[wd=\paperwidth,ht=3.6ex,dp=1.4ex,leftskip=0pt,rightskip=0pt]{footline}%
-    \leavevmode\hbox to\paperwidth{%
-      \hspace{0.6cm}% left padding
-      {\scriptsize\color{white}\insertdate\hfill\insertshortinstitute, \insertshortauthor}%
-      \hfill%
-      {\scriptsize\color{white}\insertframenumber/\inserttotalframenumber}%
-      \hspace{0.6cm}% right padding
-    }%
-  \end{beamercolorbox}%
-}
-
-% ==================================================
-% Titelinformationen
-% ==================================================
-\title[Thema]{Thema}
-\author[Merlau]{Florian Merlau}
-\institute[Amster Informatik]{Amster Informatik}
-\date{10/27/25}
-
-% ==================================================
-% Dokument
-% ==================================================
-\begin{document}
-
-% --------------------------------------------------
-% Titelfolie im Original-Look
-% --------------------------------------------------
-\begin{frame}
-
-\vspace{1cm}
-\begin{flushleft}
-    {\usebeamercolor[fg]{frametitle}\bfseries\LARGE Thema}
-\end{flushleft}
-
-\vspace{1cm}
-\justifying
-\small
-Projektpräsentation Team Titel\\
-Projektmanagement / Qualität und Nachhaltigkeit (…)
-Prof. Dr. Ulrich Holzbaur\\[0.5em]
-In Kooperation mit Stabsstelle xy der Hochschule, Amt für xy der Stadt, Her/Frau zz\\[0.5em]
-Teamleiter: …\\[0.5em]
-Team: \\
-… W1, \\
-… W1, \\
-… MIM, \\
-…\\[0.5em]
-26. Juni 2009
-
-\end{frame}
-
-% --------------------------------------------------
-% Beispiel Folie (mit Kopf/Fußlayout)
-% --------------------------------------------------
-\begin{frame}{Executive Summary – project description}
-\begin{itemize}
-    \item Name and short description
-    \item Vision and outcome
-    \item Partners and Team
-\end{itemize}
-\end{frame}
-
-% --------------------------------------------------
-% Referenzen
-% --------------------------------------------------
-\begin{frame}[allowframebreaks]{Referenzen}
-\footnotesize
-\begin{thebibliography}{9}
-\bibitem{ref1} A. Autor, "Titel des Artikels", Journal/Verlag, Jahr.
-\bibitem{ref2} B. Autor, \emph{Titel des Buches}, Verlag, Jahr.
-\end{thebibliography}
-\end{frame}
-
-\end{document}
-\documentclass[aspectratio=169,10pt]{beamer}
-
-% ==================================================
-% Hochschule Aalen Präsentationsvorlage (1:1 Design)
-% ==================================================
 \usetheme{default}
 \usecolortheme{default}
-
-% --------------------------------------------------
-% Farben (Corporate Design)
-% --------------------------------------------------
-\definecolor{hsaaBlue}{RGB}{0,70,135}
-\definecolor{hsaaGray}{RGB}{80,80,80}
-
-% --------------------------------------------------
-% Pakete
-% --------------------------------------------------
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[ngerman]{babel}
-\usepackage{lmodern}
-\usepackage{graphicx}
-\usepackage{ragged2e}
-\usepackage{booktabs}
-\usepackage{xcolor}
-\usepackage{hyperref}
-
-% --------------------------------------------------
-% Grundlayout
-% --------------------------------------------------
-\setbeamercolor{normal text}{fg=black,bg=white}
-\setbeamercolor{frametitle}{fg=hsaaBlue,bg=white}
-\setbeamercolor{structure}{fg=hsaaBlue}
 \setbeamertemplate{navigation symbols}{}
 
-% ==================================================
-% Kopfzeile: Logo oben rechts + dünner blauer Strich darunter
-% ==================================================
-\setbeamertemplate{headline}{%
-  % Logo oben rechts in Box mit ausreichender Höhe
-  \begin{beamercolorbox}[wd=\paperwidth,ht=1.2cm,dp=0.0cm]{}%
-    \vspace{0.1cm}
-    \hfill
-    % Bildhöhe auf 1cm setzen, so ist es zuverlässig sichtbar
-    \includegraphics[height=1cm]{Hochschule-aalen.svg.png}\hspace{0.5cm}
-  \end{beamercolorbox}%
-  % Dünner blauer Strich direkt unter dem Logo, über gesamte Breite
-  \begin{beamercolorbox}[wd=\paperwidth,ht=1pt,dp=0pt]{frametitle}%
-    \color{hsaaBlue}\rule{\paperwidth}{1pt}%
-  \end{beamercolorbox}%
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{structure}{fg=hsaaBlue}
+\setbeamercolor{frametitle}{fg=hsaaBlue,bg=white}
+\setbeamerfont{frametitle}{series=\bfseries,size=\large}
+
+\lstset{
+  inputencoding=utf8,
+  basicstyle=\ttfamily\footnotesize,
+  keywordstyle=\color{hsaaBlue},
+  commentstyle=\color{hsaaGray},
+  showstringspaces=false,
+  frame=single,
+  breaklines=true,
+  literate={ä}{{\"a}}1{ö}{{\"o}}1{ü}{{\"u}}1{Ä}{{\"A}}1{Ö}{{\"O}}1{Ü}{{\"U}}1{ß}{{\ss}}1
 }
 
-% ==================================================
-% Fußzeile: dünner blauer Balken über gesamte Breite (sichtbar auf allen Folien)
-% enthält Datum / Institut, Autor / Seitenzahl in kleiner Schrift
-% ==================================================
-\setbeamercolor{footline}{bg=hsaaBlue,fg=white}
-\setbeamertemplate{footline}{%
-  % Breiterer blauer Balken mit weißer Beschriftung (zentriert vertikal)
-  % Verwende ein HBox to \paperwidth und manuelle seitliche Abstände,
-  % damit die Seitenzahl zuverlässig am rechten Rand innerhalb des Balkens sitzt.
-  \begin{beamercolorbox}[wd=\paperwidth,ht=3.6ex,dp=1.4ex,leftskip=0pt,rightskip=0pt]{footline}%
-    \leavevmode\hbox to\paperwidth{%
-      \hspace{0.6cm}% left padding
-      {\scriptsize\color{white}\insertdate\hfill\insertshortinstitute, \insertshortauthor}%
-      \hfill%
-      {\scriptsize\color{white}\insertframenumber/\inserttotalframenumber}%
-      \hspace{0.6cm}% right padding
+\newcommand{\hsaaLogo}{%
+  \IfFileExists{Hochschule-aalen.svg.png}{%
+    \includegraphics[height=0.9cm]{Hochschule-aalen.svg.png}%
+  }{%
+    \IfFileExists{hs-aalen-logo.png}{\includegraphics[height=0.9cm]{hs-aalen-logo.png}}{}%
+  }%
+}
+
+\setbeamertemplate{headline}{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1.15cm,dp=0pt]{normal text}%
+    \vbox to 1.15cm{%
+      \vfil
+      \hbox to \paperwidth{\hspace*{0.6cm}\hfill\hsaaLogo\hspace*{0.6cm}}%
+      \vfil
     }%
   \end{beamercolorbox}%
+  \nointerlineskip%
+  {\color{hsaaBlue}\rule{\paperwidth}{1.2pt}}%
 }
 
-% ==================================================
-% Titelinformationen
-% ==================================================
-	itle[Thema]{Thema}
-\author[Merlau]{Florian Merlau}
-\institute[Hochschule Aalen]{Hochschule Aalen}
-\date{10/27/25}
+\setbeamercolor{footline}{bg=hsaaBlue,fg=white}
+\setbeamerfont{footline}{size=\scriptsize}
+\setbeamertemplate{footline}{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=3.4ex,dp=1.1ex,leftskip=0.8cm,rightskip=0.8cm]{footline}%
+    \insertdate{} \textbullet\ \insertshortinstitute{} \textbullet\ \insertshortauthor\hfill\insertframenumber{} / \inserttotalframenumber
+  \end{beamercolorbox}%
+}
 
-% ==================================================
-% Dokument
-% ==================================================
+% ===============================
+% Titelinformationen
+% ===============================
+\title[Strategized Locking Pattern]{Strategized Locking Pattern}
+\subtitle{Pattern-Oriented Software Architecture, Vol.~2 (POSA2)}
+\author[Florian Merlau]{Florian Merlau}
+\institute[Amster Informatik]{Amster Informatik\\Master Informatik -- Advanced Software Quality (WiSe 25/26)}
+\date{\today}
+\setbeamerfont{title}{series=\bfseries,size=\Huge}
+\setbeamerfont{subtitle}{series=\mdseries,size=\large}
+\setbeamerfont{author}{size=\normalsize}
+\setbeamerfont{institute}{size=\normalsize}
+\setbeamerfont{date}{size=\normalsize}
+
+\makeatletter
+\setbeamertemplate{title page}{%
+  \vspace*{0.8cm}%
+  \vfill
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0pt,dp=0pt,leftskip=2.4cm,rightskip=2.4cm]{normal text}%
+    {\usebeamerfont{title}\color{hsaaBlue}\inserttitle\par}%
+    \vspace*{0.6cm}%
+    {\usebeamerfont{subtitle}\color{hsaaGray}\insertsubtitle\par}%
+    \vspace*{1.2cm}%
+    {\usebeamerfont{author}\insertauthor\par}%
+    {\usebeamerfont{institute}\insertinstitute\par}%
+    \vspace*{0.8cm}%
+    {\usebeamerfont{date}\insertdate\par}%
+  \end{beamercolorbox}%
+  \vfill
+}
+\makeatother
+
 \begin{document}
 
-% --------------------------------------------------
-% Titelfolie im Original-Look
-% --------------------------------------------------
 \begin{frame}
-
-\vspace{1cm}
-\begin{flushleft}
-    {\usebeamercolor[fg]{frametitle}\bfseries\LARGE Thema}
-\end{flushleft}
-
-\vspace{1cm}
-\justifying
-\small
-Projektpräsentation Team Titel\\
-Projektmanagement / Qualität und Nachhaltigkeit (…)\newline
-Prof. Dr. Ulrich Holzbaur\\[0.5em]
-In Kooperation mit Stabsstelle xy der Hochschule, Amt für xy der Stadt, Her/Frau zz\\[0.5em]
-Teamleiter: …\\[0.5em]
-Team: \\
-… W1, \\
-… W1, \\
-… MIM, \\
-…\\[0.5em]
-26. Juni 2009
-
+  \titlepage
 \end{frame}
 
-% --------------------------------------------------
-% Beispiel Folie (mit Kopf/Fußlayout)
-% --------------------------------------------------
-\begin{frame}{Executive Summary – project description}
-\begin{itemize}
-    \item Name and short description
-    \item Vision and outcome
-    \item Partners and Team
-\end{itemize}
+\begin{frame}{Agenda}
+  \tableofcontents[hideallsubsections]
+\end{frame}
+
+% ===============================
+% Einleitung & Motivation
+% ===============================
+\section{Einf\"uhrung \& Motivation}
+\begin{frame}{Motivation}
+  \begin{itemize}
+    \item Nebenl\"aufige Software ist fehleranf\"allig: \textit{Race Conditions, Deadlocks}
+    \item Feste Locking-Strategien sind unflexibel und schwer wartbar
+    \item Ziel: Wiederverwendbare Komponenten mit austauschbaren Synchronisationsmechanismen
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Problem klassischer Ans\"atze}
+  \begin{itemize}
+    \item Hard-coded Locks $\rightarrow$ geringe Flexibilit\"at
+    \item Mehrere Varianten desselben Codes f\"ur unterschiedliche Threading-Modelle
+    \item Schwierige Wartung, fehleranf\"allig, Performance-Verlust
+  \end{itemize}
+\end{frame}
+
+% ===============================
+% Patternbeschreibung
+% ===============================
+\section{Patternbeschreibung}
+\begin{frame}{Intent und Kontext}
+  \textbf{Intent:}\\
+  \textit{Strategize a component's synchronization to increase its flexibility and reusability without degrading performance or maintainability.} (Schmidt, 1998)
+
+  \vspace{1em}
+  \textbf{Kontext:}
+  \begin{itemize}
+    \item Wiederverwendbare Komponenten, die in verschiedenen Concurrency-Umgebungen laufen m\"ussen
+    \item Locking soll konfigurierbar oder \enquote{pluggable} sein
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Problem \& Forces}
+  \begin{itemize}
+    \item Unterst\"utzung verschiedener Locking-Strategien (Mutex, RW-Lock, Null-Mutex)
+    \item Anforderungen: Performance, Wartbarkeit, Portabilit\"at
+    \item Trade-off: Compile-Time Templates vs. Run-Time Polymorphie
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{L\"osung -- Strategized Locking}
+  \begin{itemize}
+    \item Synchronisation wird ausgelagert in eine Strategie-Komponente
+    \item Zwei Varianten:
+      \begin{enumerate}
+        \item \textbf{Polymorph} -- Lock-Typ wird zur Laufzeit gew\"ahlt
+        \item \textbf{Template-basiert} -- Lock-Typ wird beim Kompilieren festgelegt
+      \end{enumerate}
+    \item Nutzung des \textbf{Scoped Locking Idioms} (RAII)
+  \end{itemize}
+\end{frame}
+
+% ===============================
+% Codebeispiel & Diagramm
+% ===============================
+\section{Codebeispiel und Diagramm}
+\begin{frame}[fragile]{Codebeispiel (C++)}
+\begin{lstlisting}[language=C++]
+template <class LOCK>
+class File_Cache {
+public:
+  const char* find(const char* path) {
+    Guard<LOCK> guard(lock_);
+    // Zugriff auf Cache...
+    return nullptr;
+  }
+private:
+  LOCK lock_;
+};
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}{Diagramm -- Strategized Locking}
+  \begin{center}
+    \IfFileExists{diagram-placeholder.pdf}{\includegraphics[width=0.92\linewidth,keepaspectratio]{diagram-placeholder.pdf}}{\fbox{Diagramm fehlt (diagram-placeholder.pdf)}}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Vergleich der Strategien}
+  \begin{tabular}{|l|l|l|l|}
+  \hline
+    \textbf{Strategie} & \textbf{Beschreibung} & \textbf{Vorteil} & \textbf{Nachteil} \\
+  \hline
+  Null\_Mutex & Kein Lock (Single-Threaded) & Schnell & Unsicher bei Threads \\
+  Thread\_Mutex & Standard-Lock & Robust & Langsam bei hoher Parallelit\"at \\
+  RW\_Lock & Paralleles Lesen, exklusives Schreiben & Effizient bei vielen Reads & Komplexer \\
+  \hline
+  \end{tabular}
+\end{frame}
+
+% ===============================
+% Verwandte Patterns
+% ===============================
+\section{Verwandte Patterns}
+\begin{frame}{Thread-safe Interface Pattern}
+  \begin{itemize}
+    \item Verhindert \textit{Self-Deadlocks} durch klare Trennung
+    \item \textbf{Interface methods check} -- \"offentliche Methoden sichern Zugriff
+    \item \textbf{Implementation methods trust} -- interne Methoden vertrauen auf bestehenden Lock
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Scoped Locking Idiom}
+  \begin{itemize}
+    \item RAII-Prinzip: Lock wird beim Eintritt erworben, beim Verlassen freigegeben
+  \end{itemize}
+  \vspace{1em}
+  \begin{lstlisting}[language=C++]
+template<class LOCK>
+class Guard {
+public:
+  Guard(LOCK &l): lock(l) { lock.acquire(); }
+  ~Guard() { lock.release(); }
+private:
+  LOCK &lock;
+};
+  \end{lstlisting}
+\end{frame}
+
+% ===============================
+% Bewertung & Fazit
+% ===============================
+\section{Bewertung \& Fazit}
+\begin{frame}{Vor- und Nachteile}
+  \textbf{Vorteile:}
+  \begin{itemize}
+    \item Hohe Flexibilit\"at und Wiederverwendbarkeit
+    \item Wartungsfreundlich (eine zentrale Implementierung)
+    \item Einfache Performance-Anpassung
+  \end{itemize}
+  \vspace{1em}
+  \textbf{Nachteile:}
+  \begin{itemize}
+    \item Template-Komplexit\"at bzw. Sichtbarkeit der Strategien
+    \item Potenziell h\"ohere Kompilierzeit
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Bekannte Anwendungen}
+  \begin{itemize}
+    \item \textbf{ACE Framework (Adaptive Communication Environment)}
+    \item \textbf{Booch Components}
+    \item Moderne \"Aquivalente: \texttt{std::lock\_guard}, Java \texttt{synchronized}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Fazit}
+  \begin{itemize}
+    \item Strategized Locking = ``pluggable synchronization''
+    \item Klare Trennung von Funktionalit\"at und Synchronisation
+    \item Grundlage vieler moderner Concurrency-Patterns
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Diskussion}
+  \begin{itemize}
+    \item Wann lohnt sich Strategized Locking in modernen Systemen?
+    \item Welche Alternativen gibt es in Java, C++, Rust?
+  \end{itemize}
+\end{frame}
+
+% ===============================
+% Quellen
+% ===============================
+\begin{frame}[allowframebreaks]{Quellen}
+  \begin{thebibliography}{9}
+  \bibitem{schmidt1998}
+    Douglas C. Schmidt,
+    \emph{Strategized Locking, Thread-safe Interface, and Scoped Locking},
+    C++ Report, Washington University, 1998.
+  \bibitem{buschmann2000}
+    Buschmann, F., Schmidt, D. C., et al.
+    \emph{Pattern-Oriented Software Architecture, Volume 2: Patterns for Concurrent and Networked Objects.}
+    Wiley, 2000.
+  \end{thebibliography}
 \end{frame}
 
 \end{document}

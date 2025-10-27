@@ -1,0 +1,15 @@
+\frametitle{Scoped Locking Idiom}
+\begin{itemize}
+    \item RAII-Prinzip: Lock wird beim Eintritt erworben, beim Verlassen freigegeben
+  \end{itemize}
+  \vspace{1em}
+  \begin{lstlisting}[language=C++]
+template<class LOCK>
+class Guard {
+public:
+  Guard(LOCK &l): lock(l) { lock.acquire(); }
+  ~Guard() { lock.release(); }
+private:
+  LOCK &lock;
+};
+  \end{lstlisting}
