@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.8)  27 OCT 2025 16:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.8)  27 OCT 2025 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,15 +787,32 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count350
 \@thisrulewidth=\dimen308
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen309
+\ar@mcellbox=\box77
+\extrarowheight=\dimen310
+\NC@list=\toks48
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box78
+)
+\everycr=\toks49
+\minrowclearance=\skip68
+\rownum=\count351
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count351
-\csq@gtype=\count352
-\csq@glevel=\count353
-\csq@qlevel=\count354
-\csq@maxlvl=\count355
-\csq@tshold=\count356
-\csq@ltx@everypar=\toks48
+\csq@reset=\count352
+\csq@gtype=\count353
+\csq@glevel=\count354
+\csq@qlevel=\count355
+\csq@maxlvl=\count356
+\csq@tshold=\count357
+\csq@ltx@everypar=\toks50
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -810,69 +827,79 @@ File: csquotes.cfg
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count357
-\lst@gtempboxa=\box77
-\lst@token=\toks49
-\lst@length=\count358
-\lst@currlwidth=\dimen309
-\lst@column=\count359
-\lst@pos=\count360
-\lst@lostspace=\dimen310
-\lst@width=\dimen311
-\lst@newlines=\count361
-\lst@lineno=\count362
-\lst@maxwidth=\dimen312
+\lst@mode=\count358
+\lst@gtempboxa=\box79
+\lst@token=\toks51
+\lst@length=\count359
+\lst@currlwidth=\dimen311
+\lst@column=\count360
+\lst@pos=\count361
+\lst@lostspace=\dimen312
+\lst@width=\dimen313
+\lst@newlines=\count362
+\lst@lineno=\count363
+\lst@maxwidth=\dimen314
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count363
-\lst@skipnumbers=\count364
-\lst@framebox=\box78
+\c@lstnumber=\count364
+\lst@skipnumbers=\count365
+\lst@framebox=\box80
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen315
+\TX@old@table=\dimen316
+\TX@old@col=\dimen317
+\TX@target=\dimen318
+\TX@delta=\dimen319
+\TX@cols=\count366
+\TX@ftn=\toks52
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-00.
+05.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count365
-\l__pdf_internal_box=\box79
+\l__color_backend_stack_int=\count367
+\l__pdf_internal_box=\box81
 )
 (./Präsio.aux)
 \openout1 = `Präsio.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -910,17 +937,17 @@ LaTeX Font Info:    ... okay on input line 100.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count366
-\scratchdimen=\dimen313
-\scratchbox=\box80
-\nofMPsegments=\count367
-\nofMParguments=\count368
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count369
-\MPscratchDim=\dimen314
-\MPnumerator=\count370
-\makeMPintoPDFobject=\count371
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count368
+\scratchdimen=\dimen320
+\scratchbox=\box82
+\nofMPsegments=\count369
+\nofMParguments=\count370
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count371
+\MPscratchDim=\dimen321
+\MPnumerator=\count372
+\makeMPintoPDFobject=\count373
+\everyMPtoPDFconversion=\toks54
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -930,58 +957,58 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 100.
+Package hyperref Info: Link coloring OFF on input line 105.
 
 (./Präsio.out) (./Präsio.out)
 \@outlinefile=\write5
 \openout5 = `Präsio.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 100.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 100.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 100.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 100.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 105.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 100.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 105.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 100.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 100.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 105.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 100.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 100.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 105.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 100.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 100.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 105.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 100.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 100.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 100.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 100.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 100.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 100.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 100.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 100.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 100.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 105.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1007,10 +1034,10 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count372
+\c@lstlisting=\count374
  (./Präsio.nav)
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-100.
+105.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1018,17 +1045,17 @@ File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 <Hochschule-aalen.svg.png, id=33, 1224.575pt x 188.705pt>
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 100.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 105.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 104.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 109.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 104.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 109.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [1
 
@@ -1037,139 +1064,139 @@ al/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
 5/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./Hochschule-aalen.svg.png>]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 108.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 113.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 (./Präsio.toc)
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 108.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 113.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [2
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 120.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 125.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-120.
+125.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-20.
+25.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-120.
+125.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-120.
+125.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 120.
+(Font)              <10> on input line 125.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 120.
+(Font)              <7> on input line 125.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 120.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+(Font)              <5> on input line 125.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 125
 .
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+LaTeX Font Info:    Trying to load font information for U+msb on input line 125
 .
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 120.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 125.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 120.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 125.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 120.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 125.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 120.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 125.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [3
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 128.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 133.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 128.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 133.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [4
 
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 144.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 149.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 144.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 149.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [5
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 152.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 157.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 152.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 157.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [6
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 164.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 169.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 164.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 169.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [7
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 170.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 175.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 \openout4 = `Präsio.vrb'.
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 184.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 189.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
  (./Präsio.vrb
 (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1190,135 +1217,130 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 184.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 189.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [8
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 190.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 195.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 190.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 195.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [9
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 202.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 216.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
-
-Overfull \hbox (100.46838pt too wide) in paragraph at lines 202--202
-[][]  
- []
-
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 202.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 216.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [10
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 214.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 228.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 214.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 228.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [11
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 216.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 230.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 \openout4 = `Präsio.vrb'.
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 231.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 245.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
  (./Präsio.vrb)
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 231.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 245.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [12
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 250.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 264.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 250.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 264.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [13
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 258.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 272.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 258.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 272.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [14
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 266.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 280.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 266.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 280.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [15
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 273.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 287.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 273.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 287.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [16
 
 ]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 289.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 303.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 
 
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
-Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 289.
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 303.
 (pdftex.def)             Requested size: 166.17001pt x 25.6073pt.
 [17
 
@@ -1341,11 +1363,11 @@ Package rerunfilecheck Info: File `Präsio.out' has not changed.
 (rerunfilecheck)             Checksum: 0719E1E6F7FF3CD10D22682CA03B481D;755.
  ) 
 Here is how much of TeX's memory you used:
- 25599 strings out of 473190
- 477398 string characters out of 5715801
- 1098373 words of memory out of 5000000
- 48274 multiletter control sequences out of 15000+600000
- 611444 words of font info for 71 fonts, out of 8000000 for 9000
+ 25847 strings out of 473190
+ 481029 string characters out of 5715801
+ 1101667 words of memory out of 5000000
+ 48507 multiletter control sequences out of 15000+600000
+ 627419 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,382b,1369s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/lo
@@ -1357,7 +1379,7 @@ public/lm/lmsso10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm
 /lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt10.pf
 b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt8.pfb></usr/loc
 al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Präsio.pdf (17 pages, 249685 bytes).
+Output written on Präsio.pdf (17 pages, 251635 bytes).
 PDF statistics:
  210 PDF objects out of 1000 (max. 8388607)
  157 compressed objects within 2 object streams

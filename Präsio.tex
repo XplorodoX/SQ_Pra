@@ -10,9 +10,12 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{hyperref}
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 \usepackage{csquotes}
 \usepackage{listingsutf8}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{tabularx}
 
 \definecolor{hsaaBlue}{RGB}{0,70,135}
 \definecolor{hsaaGray}{RGB}{100,100,100}
@@ -36,6 +39,8 @@
   breaklines=true,
   literate={ä}{{\"a}}1{ö}{{\"o}}1{ü}{{\"u}}1{Ä}{{\"A}}1{Ö}{{\"O}}1{Ü}{{\"U}}1{ß}{{\ss}}1
 }
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 
 \newcommand{\hsaaLogo}{%
   \IfFileExists{Hochschule-aalen.svg.png}{%
@@ -61,7 +66,7 @@
 \setbeamerfont{footline}{size=\scriptsize}
 \setbeamertemplate{footline}{%
   \begin{beamercolorbox}[wd=\paperwidth,ht=3.4ex,dp=1.1ex,leftskip=0.8cm,rightskip=0.8cm]{footline}%
-    \insertdate{} \textbullet\ \insertshortinstitute{} \textbullet\ \insertshortauthor\hfill\insertframenumber{} / \inserttotalframenumber
+    \insertdate{} \textbullet\ \insertshortauthor{} \textbullet\ Master Informatiker\hfill\insertframenumber{} / \inserttotalframenumber
   \end{beamercolorbox}%
 }
 
@@ -190,15 +195,24 @@ private:
 \end{frame}
 
 \begin{frame}{Vergleich der Strategien}
-  \begin{tabular}{|l|l|l|l|}
-  \hline
-    \textbf{Strategie} & \textbf{Beschreibung} & \textbf{Vorteil} & \textbf{Nachteil} \\
-  \hline
-  Null\_Mutex & Kein Lock (Single-Threaded) & Schnell & Unsicher bei Threads \\
-  Thread\_Mutex & Standard-Lock & Robust & Langsam bei hoher Parallelit\"at \\
-  RW\_Lock & Paralleles Lesen, exklusives Schreiben & Effizient bei vielen Reads & Komplexer \\
-  \hline
-  \end{tabular}
+  \centering
+  {\small
+  \setlength{\tabcolsep}{6pt}
+  \renewcommand{\arraystretch}{1.25}
+  \arrayrulecolor{hsaaGray!40}
+  \begin{tabularx}{0.92\linewidth}{>{\bfseries}lYYY}
+    \toprule
+    \rowcolor{hsaaGray!25}
+    Strategie & Beschreibung & Vorteil & Nachteil \\
+    \midrule
+    \rowcolor{hsaaGray!10}
+    Null\_Mutex & Kein Lock (Single-Threaded) & Schnell & Unsicher bei Threads \\
+    Thread\_Mutex & Standard-Lock & Robust & Langsam bei hoher Parallelit\"at \\
+    \rowcolor{hsaaGray!10}
+    RW\_Lock & Paralleles Lesen, exklusives Schreiben & Effizient bei vielen Reads & Komplexer \\
+    \bottomrule
+  \end{tabularx}
+  \arrayrulecolor{black}}
 \end{frame}
 
 % ===============================
