@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.8)  27 OCT 2025 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.8)  27 OCT 2025 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -974,11 +974,11 @@ Dictionary: translator-theorem-dictionary, Language: English
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
 Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 84.
-(pdftex.def)             Requested size: 184.63129pt x 28.45274pt.
+(pdftex.def)             Requested size: 147.70876pt x 22.76228pt.
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
 Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 111.
-(pdftex.def)             Requested size: 184.63129pt x 28.45274pt.
+(pdftex.def)             Requested size: 147.70876pt x 22.76228pt.
 
 Overfull \vbox (0.58472pt too high) detected at line 111
  []
@@ -988,7 +988,7 @@ Overfull \vbox (0.58472pt too high) detected at line 111
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
 Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 111.
-(pdftex.def)             Requested size: 184.63129pt x 28.45274pt.
+(pdftex.def)             Requested size: 147.70876pt x 22.76228pt.
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -997,7 +997,7 @@ g.png>]
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
 Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 122.
-(pdftex.def)             Requested size: 184.63129pt x 28.45274pt.
+(pdftex.def)             Requested size: 147.70876pt x 22.76228pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
 122.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmss.fd
@@ -1050,10 +1050,25 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
 File: Hochschule-aalen.svg.png Graphic file (type png)
 <use Hochschule-aalen.svg.png>
 Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 122.
-(pdftex.def)             Requested size: 184.63129pt x 28.45274pt.
+(pdftex.def)             Requested size: 147.70876pt x 22.76228pt.
 [2
 
 ]
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 133.
+(pdftex.def)             Requested size: 147.70876pt x 22.76228pt.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 133.
+
+
+File: Hochschule-aalen.svg.png Graphic file (type png)
+<use Hochschule-aalen.svg.png>
+Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 133.
+(pdftex.def)             Requested size: 147.70876pt x 22.76228pt.
+[3
+
+ </usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write6
 \openout6 = `Präsio.nav'.
 
@@ -1063,20 +1078,24 @@ Package pdftex.def Info: Hochschule-aalen.svg.png  used on input line 122.
 \tf@snm=\write8
 \openout8 = `Präsio.snm'.
 
- (./Präsio.aux)
+(./Präsio.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Präsio.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22940 strings out of 473190
- 437919 string characters out of 5715801
- 815772 words of memory out of 5000000
- 45698 multiletter control sequences out of 15000+600000
- 602102 words of font info for 65 fonts, out of 8000000 for 9000
+ 22991 strings out of 473190
+ 439358 string characters out of 5715801
+ 815777 words of memory out of 5000000
+ 45745 multiletter control sequences out of 15000+600000
+ 607677 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,17n,123p,382b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/lo
@@ -1084,11 +1103,12 @@ cal/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texliv
 e/2025/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2025/texm
 f-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2025/texmf-dist/font
 s/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msam10.pfb>
-Output written on Präsio.pdf (2 pages, 136564 bytes).
+public/lm/lmsso8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msam10.pfb>
+Output written on Präsio.pdf (3 pages, 159958 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
