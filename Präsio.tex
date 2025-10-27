@@ -1,0 +1,248 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+
+% ==================================================
+% Hochschule Aalen Präsentationsvorlage (1:1 Design)
+% ==================================================
+\usetheme{default}
+\usecolortheme{default}
+
+% --------------------------------------------------
+% Farben (Corporate Design)
+% --------------------------------------------------
+\definecolor{hsaaBlue}{RGB}{0,70,135}
+\definecolor{hsaaGray}{RGB}{80,80,80}
+
+% --------------------------------------------------
+% Pakete
+% --------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% --------------------------------------------------
+% Grundlayout
+% --------------------------------------------------
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{frametitle}{fg=hsaaBlue,bg=white}
+\setbeamercolor{structure}{fg=hsaaBlue}
+\setbeamertemplate{navigation symbols}{}
+
+% ==================================================
+% Kopfzeile: Logo oben rechts + dünner blauer Strich darunter
+% ==================================================
+\setbeamertemplate{headline}{%
+  % Logo oben rechts in Box mit ausreichender Höhe
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1.2cm,dp=0.0cm]{}%
+    \vspace{0.1cm}
+    \hfill
+    % Bildhöhe auf 1cm setzen, so ist es zuverlässig sichtbar
+    \includegraphics[height=1cm]{Hochschule-aalen.svg.png}\hspace{0.5cm}
+  \end{beamercolorbox}%
+  % Dünner blauer Strich direkt unter dem Logo, über gesamte Breite
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1pt,dp=0pt]{frametitle}%
+    \color{hsaaBlue}\rule{\paperwidth}{1pt}%
+  \end{beamercolorbox}%
+}
+
+% ==================================================
+% Fußzeile: dünner blauer Balken über gesamte Breite (sichtbar auf allen Folien)
+% enthält Datum / Institut, Autor / Seitenzahl in kleiner Schrift
+% ==================================================
+\setbeamercolor{footline}{bg=hsaaBlue,fg=white}
+\setbeamertemplate{footline}{%
+  % Breiterer blauer Balken mit weißer Beschriftung (zentriert vertikal)
+  % Verwende ein HBox to \paperwidth und manuelle seitliche Abstände,
+  % damit die Seitenzahl zuverlässig am rechten Rand innerhalb des Balkens sitzt.
+  \begin{beamercolorbox}[wd=\paperwidth,ht=3.6ex,dp=1.4ex,leftskip=0pt,rightskip=0pt]{footline}%
+    \leavevmode\hbox to\paperwidth{%
+      \hspace{0.6cm}% left padding
+      {\scriptsize\color{white}\insertdate\hfill\insertshortinstitute, \insertshortauthor}%
+      \hfill%
+      {\scriptsize\color{white}\insertframenumber/\inserttotalframenumber}%
+      \hspace{0.6cm}% right padding
+    }%
+  \end{beamercolorbox}%
+}
+
+% ==================================================
+% Titelinformationen
+% ==================================================
+\title[Thema]{Thema}
+\author[Merlau]{Florian Merlau}
+\institute[Hochschule Aalen]{Hochschule Aalen}
+\date{10/27/25}
+
+% ==================================================
+% Dokument
+% ==================================================
+\begin{document}
+
+% --------------------------------------------------
+% Titelfolie im Original-Look
+% --------------------------------------------------
+\begin{frame}
+
+\vspace{1cm}
+\begin{flushleft}
+    {\usebeamercolor[fg]{frametitle}\bfseries\LARGE Thema}
+\end{flushleft}
+
+\vspace{1cm}
+\justifying
+\small
+Projektpräsentation Team Titel\\
+Projektmanagement / Qualität und Nachhaltigkeit (…)
+Prof. Dr. Ulrich Holzbaur\\[0.5em]
+In Kooperation mit Stabsstelle xy der Hochschule, Amt für xy der Stadt, Her/Frau zz\\[0.5em]
+Teamleiter: …\\[0.5em]
+Team: \\
+… W1, \\
+… W1, \\
+… MIM, \\
+…\\[0.5em]
+26. Juni 2009
+
+\end{frame}
+
+% --------------------------------------------------
+% Beispiel Folie (mit Kopf/Fußlayout)
+% --------------------------------------------------
+\begin{frame}{Executive Summary – project description}
+\begin{itemize}
+    \item Name and short description
+    \item Vision and outcome
+    \item Partners and Team
+\end{itemize}
+\end{frame}
+
+\end{document}
+\documentclass[aspectratio=169,10pt]{beamer}
+
+% ==================================================
+% Hochschule Aalen Präsentationsvorlage (1:1 Design)
+% ==================================================
+\usetheme{default}
+\usecolortheme{default}
+
+% --------------------------------------------------
+% Farben (Corporate Design)
+% --------------------------------------------------
+\definecolor{hsaaBlue}{RGB}{0,70,135}
+\definecolor{hsaaGray}{RGB}{80,80,80}
+
+% --------------------------------------------------
+% Pakete
+% --------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% --------------------------------------------------
+% Grundlayout
+% --------------------------------------------------
+\setbeamercolor{normal text}{fg=black,bg=white}
+\setbeamercolor{frametitle}{fg=hsaaBlue,bg=white}
+\setbeamercolor{structure}{fg=hsaaBlue}
+\setbeamertemplate{navigation symbols}{}
+
+% ==================================================
+% Kopfzeile: Logo oben rechts + dünner blauer Strich darunter
+% ==================================================
+\setbeamertemplate{headline}{%
+  % Logo oben rechts in Box mit ausreichender Höhe
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1.2cm,dp=0.0cm]{}%
+    \vspace{0.1cm}
+    \hfill
+    % Bildhöhe auf 1cm setzen, so ist es zuverlässig sichtbar
+    \includegraphics[height=1cm]{Hochschule-aalen.svg.png}\hspace{0.5cm}
+  \end{beamercolorbox}%
+  % Dünner blauer Strich direkt unter dem Logo, über gesamte Breite
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1pt,dp=0pt]{frametitle}%
+    \color{hsaaBlue}\rule{\paperwidth}{1pt}%
+  \end{beamercolorbox}%
+}
+
+% ==================================================
+% Fußzeile: dünner blauer Balken über gesamte Breite (sichtbar auf allen Folien)
+% enthält Datum / Institut, Autor / Seitenzahl in kleiner Schrift
+% ==================================================
+\setbeamercolor{footline}{bg=hsaaBlue,fg=white}
+\setbeamertemplate{footline}{%
+  % Breiterer blauer Balken mit weißer Beschriftung (zentriert vertikal)
+  % Verwende ein HBox to \paperwidth und manuelle seitliche Abstände,
+  % damit die Seitenzahl zuverlässig am rechten Rand innerhalb des Balkens sitzt.
+  \begin{beamercolorbox}[wd=\paperwidth,ht=3.6ex,dp=1.4ex,leftskip=0pt,rightskip=0pt]{footline}%
+    \leavevmode\hbox to\paperwidth{%
+      \hspace{0.6cm}% left padding
+      {\scriptsize\color{white}\insertdate\hfill\insertshortinstitute, \insertshortauthor}%
+      \hfill%
+      {\scriptsize\color{white}\insertframenumber/\inserttotalframenumber}%
+      \hspace{0.6cm}% right padding
+    }%
+  \end{beamercolorbox}%
+}
+
+% ==================================================
+% Titelinformationen
+% ==================================================
+	itle[Thema]{Thema}
+\author[Merlau]{Florian Merlau}
+\institute[Hochschule Aalen]{Hochschule Aalen}
+\date{10/27/25}
+
+% ==================================================
+% Dokument
+% ==================================================
+\begin{document}
+
+% --------------------------------------------------
+% Titelfolie im Original-Look
+% --------------------------------------------------
+\begin{frame}
+
+\vspace{1cm}
+\begin{flushleft}
+    {\usebeamercolor[fg]{frametitle}\bfseries\LARGE Thema}
+\end{flushleft}
+
+\vspace{1cm}
+\justifying
+\small
+Projektpräsentation Team Titel\\
+Projektmanagement / Qualität und Nachhaltigkeit (…)\newline
+Prof. Dr. Ulrich Holzbaur\\[0.5em]
+In Kooperation mit Stabsstelle xy der Hochschule, Amt für xy der Stadt, Her/Frau zz\\[0.5em]
+Teamleiter: …\\[0.5em]
+Team: \\
+… W1, \\
+… W1, \\
+… MIM, \\
+…\\[0.5em]
+26. Juni 2009
+
+\end{frame}
+
+% --------------------------------------------------
+% Beispiel Folie (mit Kopf/Fußlayout)
+% --------------------------------------------------
+\begin{frame}{Executive Summary – project description}
+\begin{itemize}
+    \item Name and short description
+    \item Vision and outcome
+    \item Partners and Team
+\end{itemize}
+\end{frame}
+
+\end{document}

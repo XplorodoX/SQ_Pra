@@ -1,0 +1,264 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+
+% ==================================================
+% Hochschule Aalen Präsentationsvorlage (angepasst)
+\documentclass[aspectratio=169,10pt]{beamer}
+
+% ==================================================
+% Hochschule Aalen Präsentationsvorlage (angepasst)
+% ==================================================
+\usetheme{Madrid}
+\usecolortheme{dolphin}
+
+% Schrift & Sprache
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+% Priorisiere gängige Grafikformate (vermeidet Suche nach .bb-Dateien bei pdfLaTeX)
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Code-Layout
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  showstringspaces=false,
+  frame=single,
+  breaklines=true
+}
+
+% Farben Hochschule Aalen
+\definecolor{hsaaBlue}{RGB}{0,70,135}
+\definecolor{hsaaGray}{RGB}{100,100,100}
+
+\setbeamercolor{structure}{fg=hsaaBlue}
+\setbeamercolor{title}{fg=white,bg=hsaaBlue}
+\setbeamercolor{frametitle}{fg=white,bg=hsaaBlue}
+\setbeamercolor{footline}{fg=white,bg=hsaaBlue}
+
+% Titelinformationen
+	itle[Strategized Locking Pattern]{Strategized Locking Pattern}
+\subtitle{Pattern-Oriented Software Architecture, Vol. 2 (POSA2)}
+\author[Florian Merlau]{Florian Merlau}
+\institute[Hochschule Aalen]{Hochschule Aalen\\Master Informatik -- Advanced Software Quality (WiSe 25/26)}
+\date{\today}
+
+% Logo (für alle Folien oben rechts) — nutzt vorhandene Dateien falls existent
+\IfFileExists{hs-aalen-logo.png}{\logo{\includegraphics[height=1.0cm]{hs-aalen-logo.png}}}{\IfFileExists{aalen_logo_placeholder.png}{\logo{\includegraphics[height=1.0cm]{aalen_logo_placeholder.png}}}{}}
+
+% HEADLINE: Logo oben rechts + dünner blauer Strich darunter
+\setbeamertemplate{headline}{%
+  % Raum für das Logo (rechts)
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1.0cm,dp=0ex,sep=0pt]{}
+    \hfill%
+    \raisebox{0.15cm}{\usebeamertemplate{logo}}\hspace{0.5cm}
+  \end{beamercolorbox}%
+  % dünner blauer Strich unterhalb der Kopfzeile
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.12cm,dp=0ex]{footline}%
+  \end{beamercolorbox}%
+}
+
+% FOOTLINE: durchgehender blauer Balken + Zeile mit Autor/Foliennummer
+\setbeamertemplate{footline}{%
+  % Blauer Balken (durchgehend)
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.8ex,dp=0ex]{footline}
+  \end{beamercolorbox}%
+  % Infozeile über dem Balken (Autor links / Seitenzahl rechts)
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.2ex,dp=1ex,left]{author in head/foot}
+    \hspace*{2ex}\usebeamerfont{author in head/foot}\insertshortauthor
+    \hfill\usebeamerfont{date in head/foot}\insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+  \end{beamercolorbox}%
+}
+
+\begin{document}
+
+% Titelseite
+\begin{frame}
+  	itlepage
+\end{frame}
+
+% Gliederung
+\begin{frame}{Agenda}
+  	ableofcontents
+\end{frame}
+
+% Einleitung & Motivation
+\section{Einführung \& Motivation}
+\begin{frame}{Motivation}
+  \begin{itemize}
+    \item Nebenläufige Software ist fehleranfällig: \textit{Race Conditions, Deadlocks}
+    \item Feste Locking-Strategien sind unflexibel und schwer wartbar
+    \item Ziel: Wiederverwendbare Komponenten mit austauschbaren Synchronisationsmechanismen
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Problem klassischer Ansätze}
+  \begin{itemize}
+    \item Hard-coded Locks $\rightarrow$ geringe Flexibilität
+    \item Mehrere Varianten desselben Codes für unterschiedliche Threading-Modelle
+    \item Schwierige Wartung, fehleranfällig, Performance-Verlust
+  \end{itemize}
+\end{frame}
+
+% Patternbeschreibung
+\section{Patternbeschreibung}
+\begin{frame}{Intent und Kontext}
+  	extbf{Intent:}\\
+  	extit{Strategize a component’s synchronization to increase its flexibility and reusability
+  without degrading performance or maintainability.} (Schmidt, 1998)
+
+  \vspace{1em}
+  	extbf{Kontext:}
+  \begin{itemize}
+    \item Wiederverwendbare Komponenten, die in verschiedenen Concurrency-Umgebungen laufen müssen
+    \item Locking soll konfigurierbar oder „pluggable" sein
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Problem \& Forces}
+  \begin{itemize}
+    \item Unterstützung verschiedener Locking-Strategien (Mutex, RW-Lock, Null-Mutex)
+    \item Anforderungen: Performance, Wartbarkeit, Portabilität
+    \item Trade-off: Compile-Time Templates vs. Run-Time Polymorphie
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Lösung – Strategized Locking}
+  \begin{itemize}
+    \item Synchronisation wird ausgelagert in eine "Strategie"-Klasse
+    \item Zwei Varianten:
+      \begin{enumerate}
+        \item \textbf{Polymorph} – Lock-Typ wird zur Laufzeit gewählt
+        \item \textbf{Template-basiert} – Lock-Typ wird beim Kompilieren festgelegt
+      \end{enumerate}
+    \item Nutzung des \textbf{Scoped Locking Idioms} (RAII)
+  \end{itemize}
+\end{frame}
+
+% Codebeispiel und Diagramm
+\section{Codebeispiel und Diagramm}
+\begin{frame}[fragile]{Codebeispiel (C++)}
+\begin{lstlisting}[language=C++]
+template <class LOCK>
+class File_Cache {
+public:
+  const char* find(const char* path) {
+    Guard<LOCK> guard(lock_);
+    // Zugriff auf Cache...
+    return nullptr;
+  }
+private:
+  LOCK lock_;
+};
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}{Diagramm – Strategized Locking}
+  \begin{center}
+    \includegraphics[width=0.92\linewidth,height=0.84\textheight,keepaspectratio]{diagram-placeholder.pdf}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Vergleich der Strategien}
+  \begin{tabular}{|l|l|l|l|}
+  \hline
+  	extbf{Strategie} & \textbf{Beschreibung} & \textbf{Vorteil} & \textbf{Nachteil} \\
+  \hline
+  Null\_Mutex & Kein Lock (single-threaded) & Schnell & Unsicher bei Threads \\
+  Thread\_Mutex & Standard Lock & Robust & Langsam bei hoher Parallelität \\
+  RW\_Lock & Parallel Lesen, exklusives Schreiben & Effizient bei vielen Reads & Komplexer \\
+  \hline
+  \end{tabular}
+\end{frame}
+
+% Verwandte Patterns
+\section{Verwandte Patterns}
+\begin{frame}{Thread-safe Interface Pattern}
+  \begin{itemize}
+    \item Verhindert \textit{Self-Deadlocks} durch klare Trennung
+    \item \textbf{Interface methods check} – öffentliche Methoden sichern Zugriff
+    \item \textbf{Implementation methods trust} – interne Methoden vertrauen auf bestehenden Lock
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Scoped Locking Idiom}
+  \begin{itemize}
+    \item RAII-Prinzip: Lock wird beim Eintritt erworben, beim Verlassen freigegeben
+  \end{itemize}
+  \vspace{1em}
+  \begin{lstlisting}[language=C++]
+template<class LOCK>
+class Guard {
+public:
+  Guard(LOCK &l): lock(l) { lock.acquire(); }
+  ~Guard() { lock.release(); }
+private:
+  LOCK &lock;
+};
+  \end{lstlisting}
+\end{frame}
+
+% Bewertung & Fazit
+\section{Bewertung \& Fazit}
+\begin{frame}{Vor- und Nachteile}
+  	extbf{Vorteile:}
+  \begin{itemize}
+    \item Hohe Flexibilität und Wiederverwendbarkeit
+    \item Wartungsfreundlich (eine zentrale Implementierung)
+    \item Einfache Performance-Anpassung
+  \end{itemize}
+
+  \vspace{1em}
+  	extbf{Nachteile:}
+  \begin{itemize}
+    \item Template-Komplexität / Sichtbarkeit der Strategien
+    \item Potenziell höhere Kompilierzeit
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Bekannte Anwendungen}
+  \begin{itemize}
+    \item \textbf{ACE Framework (Adaptive Communication Environment)}
+    \item \textbf{Booch Components}
+    \item Moderne Äquivalente: \texttt{std::lock\_guard}, Java \texttt{synchronized}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Fazit}
+  \begin{itemize}
+    \item Strategized Locking = „pluggable synchronization"
+    \item Klare Trennung von Funktionalität und Synchronisation
+    \item Grundlage vieler moderner Concurrency-Patterns
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Diskussion}
+  \begin{itemize}
+    \item Wann lohnt sich Strategized Locking in modernen Systemen?
+    \item Welche Alternativen gibt es in Java, C++, Rust?
+  \end{itemize}
+\end{frame}
+
+% Quellen
+\begin{frame}[allowframebreaks]{Quellen}
+  	iny
+  \begin{thebibliography}{9}
+  \bibitem{schmidt1998}
+    Douglas C. Schmidt,
+    \emph{Strategized Locking, Thread-safe Interface, and Scoped Locking},
+    C++ Report, Washington University, 1998.
+  \bibitem{buschmann2000}
+    Buschmann, F., Schmidt, D. C., et al.
+    \emph{Pattern-Oriented Software Architecture, Volume 2: Patterns for Concurrent and Networked Objects.}
+    Wiley, 2000.
+  \end{thebibliography}
+\end{frame}
+
+\end{document}
+    \item Potenziell höhere Kompilierzeit
