@@ -193,7 +193,20 @@ private:
 
 \begin{frame}{Diagramm -- Strategized Locking}
   \begin{center}
-    \IfFileExists{UML-Klasse.pdf}{\includegraphics[width=0.6\linewidth,keepaspectratio]{UML-Klasse.pdf}}{\fbox{Diagramm fehlt (UML-Klasse.pdf)}}
+     \begin{figure}
+      \centering
+      % Include the UML diagram if present (use a moderate width). If the file is
+      % missing, show a framed placeholder.
+      \IfFileExists{UML-Klasse.pdf}{\includegraphics[width=0.55\linewidth,keepaspectratio]{UML-Klasse.pdf}}{\fbox{Diagramm fehlt (UML-Klasse.pdf)}}
+
+      % Caption / Bildunterschrift: kleine, kursive Beschreibung
+      \vspace{0.6em}
+      {\footnotesize\itshape Abbildung: Eigene Darstellung des Klassendiagramms zur Strategized Locking.}
+
+      % Autor-/Signaturlinie rechtsbündig in dezenter Farbe
+      \vspace{0.4em}
+      {\raggedleft\scriptsize\textcolor{hsaaGray}}
+     \end{figure}
   \end{center}
 \end{frame}
 
