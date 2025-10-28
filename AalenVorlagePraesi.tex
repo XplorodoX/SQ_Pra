@@ -46,18 +46,10 @@
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 
 \newcommand{\hsaaLogo}{%
-  % Template: looks for a logo file in the working directory. Provide one of
-  % the files below or update this macro to point to your logo (e.g.
-  % "logo.png"). The macro is intentionally permissive so the template
-  % works in different projects without modification.
   \IfFileExists{Hochschule-aalen.svg.png}{%
     \includegraphics[height=0.9cm]{Hochschule-aalen.svg.png}%
   }{%
-    \IfFileExists{hs-aalen-logo.png}{\includegraphics[height=0.9cm]{hs-aalen-logo.png}}{%
-      % No default logo found — leave the header blank. To add a logo,
-      % place a file named "Hochschule-aalen.svg.png" or
-      % "hs-aalen-logo.png" next to this .tex, or change this macro.
-    }%
+    \IfFileExists{hs-aalen-logo.png}{\includegraphics[height=0.9cm]{hs-aalen-logo.png}}{}%
   }%
 }
 
@@ -77,21 +69,18 @@
 \setbeamerfont{footline}{size=\scriptsize}
 \setbeamertemplate{footline}{%
   \begin{beamercolorbox}[wd=\paperwidth,ht=3.4ex,dp=1.1ex,leftskip=0.8cm,rightskip=0.8cm]{footline}%
-    \insertdate{} \textbullet\ \insertshortauthor{} \textbullet\ Master Informatiker\hfill\insertframenumber{} / \inserttotalframenumber
+    \insertdate{} \textbullet\ \insertshortauthor{} \textbullet\ Studiengang  \hfill\insertframenumber{} / \inserttotalframenumber % Studiengang einfügen
   \end{beamercolorbox}%
 }
 
 % ===============================
-% Titelinformationen (Vorlage)
+% Titelinformationen
 % ===============================
-% Ersetze die folgenden Platzhalter durch deine Inhalte. Du kannst die
-% Datei direkt anpassen oder diese Vorlage in ein Projekt kopieren und die
-% Felder überschreiben.
-	itle[SHORT TITLE]{Your Presentation Title Here}
-\subtitle{Presentation subtitle or context (e.g. course, event)}
-\author[Author Name]{Author Name}
-\institute[]{Institute / Affiliation}
-\date{\today} % oder \date{Month Year}
+\title[Title]{Title}
+\subtitle{Subtitle}
+\author[Name]{Name}
+\institute[]{Studiengang -- Modulname}
+\date{\today}
 \setbeamerfont{title}{series=\bfseries,size=\Huge}
 \setbeamerfont{subtitle}{series=\mdseries,size=\large}
 \setbeamerfont{author}{size=\normalsize}
